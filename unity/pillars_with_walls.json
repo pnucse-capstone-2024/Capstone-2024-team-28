@@ -1,0 +1,382 @@
+{
+    "pillars": [
+        {
+            "pillar": {
+                "x": 203.58246796828294,
+                "y": 0.0,
+                "z": 353.05974305880704,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 1,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": 172.25761076513743,
+                "y": 0.0,
+                "z": 349.78467666593076,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 2,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": 30.706062034802155,
+                "y": 0.0,
+                "z": 276.1983891925422,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 3,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": -393.4335026468482,
+                "y": 0.0,
+                "z": 51.57823037433599,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 4,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": -395.6947730665037,
+                "y": 0.0,
+                "z": 48.03760436960508,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 5,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": -320.4159611802095,
+                "y": 0.0,
+                "z": -128.03560095035738,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 6,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": -319.12254022293274,
+                "y": 0.0,
+                "z": -130.96302001532328,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 7,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": -317.351189528392,
+                "y": 0.0,
+                "z": -133.78932281407614,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 8,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": -301.7766961253822,
+                "y": 0.0,
+                "z": -158.35234496409947,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 9,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": -297.4288760460501,
+                "y": 0.0,
+                "z": -163.2805746482277,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 10,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": -159.49832947634474,
+                "y": 0.0,
+                "z": -310.30871501994784,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 11,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": -155.40781130455707,
+                "y": 0.0,
+                "z": -309.582575834848,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 12,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": 30.133075911657453,
+                "y": 0.0,
+                "z": -218.73416581200885,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 13,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": 36.16301413975414,
+                "y": 0.0,
+                "z": -215.74011891238015,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 14,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": 88.4939860581232,
+                "y": 0.0,
+                "z": -189.5060388657465,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 15,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": 93.94030186801199,
+                "y": 0.0,
+                "z": -186.7541888404859,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 16,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": 110.32074001261358,
+                "y": 0.0,
+                "z": -178.2763401691708,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 17,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": 121.27855242753472,
+                "y": 0.0,
+                "z": -172.60188968874124,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 18,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": 130.56953886989663,
+                "y": 0.0,
+                "z": -167.78066765120738,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 19,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": 203.31314087951625,
+                "y": 0.0,
+                "z": -129.68071615243656,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 20,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": 215.1116891920902,
+                "y": 0.0,
+                "z": -123.413784153029,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 21,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": 427.21185907260093,
+                "y": 0.0,
+                "z": -5.70904785329656,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 22,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": 425.5964433975331,
+                "y": 0.0,
+                "z": -1.7409592607983673,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 23,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": 423.7437162751494,
+                "y": 0.0,
+                "z": 2.311186298387952,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 24,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": 421.7042911494828,
+                "y": 0.0,
+                "z": 6.210557418376773,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 25,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": 415.0644064907419,
+                "y": 0.0,
+                "z": 17.895295426861985,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 26,
+                    "wall_thickness": 0.5
+                }
+            ]
+        },
+        {
+            "pillar": {
+                "x": 265.22118154448725,
+                "y": 0.0,
+                "z": 260.2059492132834,
+                "height": 5.0
+            },
+            "connections": [
+                {
+                    "to_pillar_index": 0,
+                    "wall_thickness": 0.5
+                }
+            ]
+        }
+    ]
+}
