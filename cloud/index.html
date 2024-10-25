@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexus</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <section class="main-panel">
+        <div class="lidar-container">
+          <iframe
+            class="lidar-display"
+            id="lidarDisplay"
+            src=""
+            width="1080"
+            height="720"
+          ></iframe>
+        </div>
+        <div class="video-container">
+          <video class="video-display" id="videoElement1" autoplay></video>
+          <video class="video-display" id="videoElement2" autoplay></video>
+          <video class="video-display" id="videoElement3" autoplay></video>
+        </div>
+      </section>
+
+      <section class="right-panel">
+        <div class="panel">
+          <h2>Lidar Server</h2>
+          <input
+            type="text"
+            id="lidarServerInput"
+            placeholder="Enter Lidar server address"
+          />
+          <button id="connectLidarServer">Connect</button>
+        </div>
+
+        <div class="panel">
+          <h2>Video Subscribe</h2>
+          <button class="secondary" id="videoSubscribe1">
+            Subscribe Video 1
+          </button>
+          <button class="secondary" id="videoSubscribe2">
+            Subscribe Video 2
+          </button>
+          <button class="secondary" id="videoSubscribe3">
+            Subscribe Video 3
+          </button>
+        </div>
+
+        <div class="panel">
+          <h2>Initial Position</h2>
+          <button class="secondary" id="getPosition">Get Position</button>
+          <div class="log-box" id="positionDisplay"></div>
+          <button id="setInitialPosition">Set Initial Position</button>
+          <div class="log-box" id="initialPositionDisplay"></div>
+        </div>
+
+        <div class="panel">
+          <h2>Robot Control</h2>
+          <button id="controlRobot">Control Robot</button>
+          <div class="log-box" id="controlLog"></div>
+        </div>
+      </section>
+    </div>
+
+    <script src="environment.js"></script>
+    <script src="./scripts/main.js" type="module"></script>
+  </body>
+</html>
