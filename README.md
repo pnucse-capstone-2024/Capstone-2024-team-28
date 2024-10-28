@@ -71,7 +71,7 @@ node server.js
 - 원격 제어 시스템
 - 통합 모니터링 대시보드
 
-[![2024년 전기 졸업과제 28 NEXUS](http://img.youtube.com/vi/JxSF9VgbEFM&list=PLFUP9jG-TDp-CVdTbHvql-WoADl4gNkKj&index=28/0.jpg)](https://www.youtube.com/watch?v=JxSF9VgbEFM&list=PLFUP9jG-TDp-CVdTbHvql-WoADl4gNkKj&index=28)
+[![2024년 전기 졸업과제 28 NEXUS](http://img.youtube.com/vi/JxSF9VgbEFM/0.jpg)](https://www.youtube.com/watch?v=JxSF9VgbEFM&list=PLFUP9jG-TDp-CVdTbHvql-WoADl4gNkKj&index=28)
 
 ### 5. 팀 소개
 
