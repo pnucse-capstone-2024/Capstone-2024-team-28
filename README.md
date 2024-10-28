@@ -47,7 +47,6 @@ pip install opencv-python
 
 # Unity 설치
 [Unity Hub 다운로드 링크]
-<link>
 <https://unity.com/kr/download>
 
 # ESP32 개발 환경 설정
