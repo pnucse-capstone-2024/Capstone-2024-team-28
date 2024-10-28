@@ -71,11 +71,7 @@ node server.js
 - 원격 제어 시스템
 - 통합 모니터링 대시보드
 
-https://github.com/user-attachments/assets/b8f7d10c-5399-4f0f-974b-1402c4b65b8d
-
-https://github.com/user-attachments/assets/5199e714-f2f2-4795-a7a4-8628ddb55086
-
-
+https://www.youtube.com/watch?v=JxSF9VgbEFM&list=PLFUP9jG-TDp-CVdTbHvql-WoADl4gNkKj&index=28
 
 ### 5. 팀 소개
 
