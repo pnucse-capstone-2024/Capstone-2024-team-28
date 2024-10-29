@@ -60,6 +60,11 @@ python tracking_system.py
 # 웹 서버 실행
 node server.js
 
+# LiDAR 데이터 정제
+  1) DataRefine.py의 [코드 내용]에서 LiDAR 데이터 파일 이름과 경로를 설정한다
+  2) DataRefine.py의 [코드 내용]에서 JSON 파일의 이름과 저장될 경로를 설정한다
+  3) 코드를 실행하면 설정한 경로에 JSON 형식의 정제된 LiDAR 데이터가 저장된걸 확인한다
+
 # Unity 프로젝트 빌드 및 실행
   1) Unity Hub를 실행하고 New Project -> 3D (Built-In Render Pipeline)를 선택한다
   2) Project가 만들어지면 unity 디렉토리 안에 있는 Assets 폴더를 만들어진 Project의 Assets 폴더로 덮어쓴다
