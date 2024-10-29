@@ -46,7 +46,8 @@
 pip install opencv-python
 
 # Unity 설치
-[Unity Hub 다운로드 링크] <https://unity.com/kr/download>
+[Unity Hub 다운로드 링크]
+<https://unity.com/kr/download>
 
 # ESP32 개발 환경 설정
 [Arduino IDE 설치 및 ESP32 보드 매니저 추가 방법]
