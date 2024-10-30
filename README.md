@@ -62,7 +62,9 @@ node server.js
 
 # LiDAR 데이터 정제
   1) DataRefine.py의
-  `file_path = r'C:\Users\admin\Desktop\graduationproj\lidardata\6207_clean_ver.xlsx'`  # 실제 경로를 입력~"
+  ```
+  file_path = r'C:\Users\admin\Desktop\graduationproj\lidardata\6207_clean_ver.xlsx' # 실제 경로를 입력"
+  ```
   에서 LiDAR 데이터 파일 이름과 경로를 설정한다
   2) DataRefine.py의 [코드 내용]에서 JSON 파일의 이름과 저장될 경로를 설정한다
   3) 코드를 실행하면 설정한 경로에 JSON 형식의 정제된 LiDAR 데이터가 저장된걸 확인한다
