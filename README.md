@@ -72,11 +72,17 @@ node server.js
      에서 JSON 파일이 저장된 경로를 설정한다
 
 # Unity 프로젝트 빌드 및 실행
+
   1) Unity Hub를 실행하고 New Project -> 3D (Built-In Render Pipeline)를 선택한다
+
   2) Project가 만들어지면 unity 디렉토리 안에 있는 Assets 폴더를 만들어진 Project의 Assets 폴더로 덮어쓴다
+
   3) Play 버튼을 누른뒤 빌드가 되는것을 확인하고 정지 버튼을 누른다
+
   4) File -> Build Settings에 들어가서 Platform에서 WebGL을선택하고 Switch Platforms를 누른다
+
   5) Build를 눌러 원하는 폴더를 선택한다
+
   6) Build And Run을 눌러 WebGL 빌드를 실행한다
 ```
 
