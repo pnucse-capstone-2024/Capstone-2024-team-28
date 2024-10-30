@@ -40,8 +40,8 @@
 - ROS (Robot Operating System)
 
 ### 3. 설치 및 사용 방법
-1. 환경 설정
 ```bash
+1. 환경 설정
 # OpenCV 설치
 pip install opencv-python
 
