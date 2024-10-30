@@ -53,7 +53,6 @@ pip install opencv-python
 [Arduino IDE 설치 및 ESP32 보드 매니저 추가 방법]
 
 2. 실행 방법
-```bash
 # 위치 추적 시스템 실행
 python tracking_system.py
 
