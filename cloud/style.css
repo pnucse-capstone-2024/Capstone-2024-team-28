@@ -1,0 +1,228 @@
+/* basic */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  background-color: #1c1c1e;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  color: #f5f5f7;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 0;
+  color: #c1c1c1;
+  font-weight: 500;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #acacac;
+  margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #2c2c2e;
+  color: #f5f5f7;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #2c2c2e;
+  color: #f5f5f7;
+}
+
+input[type="radio"] {
+  position: relative;
+  top: -1px;
+}
+
+textarea {
+  resize: none;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5em;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #00dd90;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button.secondary {
+  background-color: #444;
+}
+button.secondary:hover {
+  background-color: #666;
+}
+
+button:hover {
+  background-color: #04c68a;
+}
+
+video,
+img {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #3a3a3c;
+}
+
+canvas {
+  background-color: #f0f0f0;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+  margin: 0 0 1em 0;
+  border: none;
+}
+
+fieldset > select {
+  margin-top: 1em;
+}
+
+ul {
+  margin-block: 0;
+}
+
+a {
+  color: #05e999;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #04c68a;
+  text-decoration: underline;
+}
+
+p {
+  font-weight: 300;
+  font-size: 1em;
+  margin-block: 0.5em;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: #3a3a3c;
+}
+
+/* design */
+
+#container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-panel {
+  flex: 1;
+  padding: 20px 10px;
+  /* overflow-y: auto; */
+  gap: 20px;
+  flex-direction: column;
+  display: flex;
+}
+.lidar-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #3a3a3c;
+}
+.video-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  /* flex: 1; */
+  /* background-color: #3a3a3c; */
+}
+.video-canvas-wrap {
+  position: relative;
+}
+.video-canvas-wrap canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.right-panel {
+  width: 300px;
+  padding: 20px 10px;
+  /* background-color: #2c2c2e; */
+  overflow-y: auto;
+}
+.panel {
+  background-color: #3a3a3c;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.log-box {
+  height: 100px;
+  overflow-y: auto;
+  background-color: #2c2c2e;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Lidar 섹션 스타일 */
+#lidar-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#lidar-section .input-group {
+  margin-bottom: 15px;
+}
+
+#lidar-section button {
+  margin-bottom: 15px;
+}
+
+#unityIframe {
+  width: 100%;
+  height: 720px;
+  border: none;
+  border-radius: 10px;
+}
+
+#placeholderImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

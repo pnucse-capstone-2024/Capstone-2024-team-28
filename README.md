@@ -1,205 +1,122 @@
-# Template for Capstone
-이 레파지토리는 학생들이 캡스톤 프로젝트 결과물을 위한 레파지토리 생성시에 참고할 내용들을 담고 있습니다.
-1. 레파지토리 생성
-2. 레파지토리 구성
-3. 레파지토리 제출 
-4. README.md 가이드라인
-5. README.md 작성팁
+# 클라우드 기반 로봇 관제 및 모니터링 시스템
 
----
-
-## 1. 레파지토리 생성
-- [https://classroom.github.com/a/NJK_cPkH](https://classroom.github.com/a/NJK_cPkH)
-- 위 Github Classroom 링크에 접속해 본인 조의 github 레파지토리를 생성하세요.
-<img src="https://github.com/user-attachments/assets/b5a7f34a-e146-4253-b57d-672737a75a50" alt="깃헙 클래스룸 레포 생성" width="600" />
-
-- 레포지토리 생성 시 팀명은 `TEAM-{조 번호}` 형식으로 생성하세요.
-- 예를 들어, 2024년도 3조의 팀명은 `TEAM-03` 입니다.
-- 이 경우 `Capstone2024-TEAM-03`이란 이름으로 레파지토리가 생성됩니다.
-
----
-
-## 2. 레파지토리 구성
-- 레파지토리 내에 README.md 파일 생성하고 아래의 가이드라인과 작성팁을 참고하여 README.md 파일을 작성하세요. (이 레파지토리의 SAMPLE_README.md 참조)
-- 레파지토리 내에 docs 디렉토리를 생성하고 docs 디렉토리 내에는 과제 수행 하면서 작성한 각종 보고서, 발표자료를 올려둡니다. (이 레파지토리의 docs 디렉토리 참조)
-- 그 밖에 레파지토리의 폴더 구성은 과제 결과물에 따라 자유롭게 구성하되 가급적 코드의 목적이나 기능에 따라 디렉토리를 나누어 구성하세요.
-
----
-
-## 3. 레파지토리 제출 
-
-- **`[주의]` 레파지토리 제출**은 해당 레파지토리의 ownership을 **학과 계정**으로 넘기는 것이므로 되돌릴 수 없습니다.
-- **레파지토리 제출** 전, 더 이상 수정 사항이 없는지 다시 한번 확인하세요.
-- github 레파지토리에서 Settings > General > Danger zone > Transfer 클릭
-  <img src="https://github.com/user-attachments/assets/cb2361d4-e07e-4b5d-9116-aa80dddd8a8b" alt="소유주 변경 경로" width="500" />
-  
-- [ Specify an organization or username ]에 'PNUCSE'를 입력하고 확인 메세지를 입력하세요.
-  <img src="https://github.com/user-attachments/assets/7c63955d-dcfe-4ac3-bdb6-7d2620575f3a" alt="소유주 변경" width="400" />
-
----
-
-## 4. README.md 가이드 라인
-- README 파일 작성시에 아래의 5가지 항목의 내용은 필수적으로 포함해야 합니다.
-- 아래의 5가지 항목이외에 프로젝트의 이해를 돕기 위한 내용을 추가해도 됩니다.
-- SAMPLE_README.md 이 단순한 형태의 예제이니 참고하세요.
-
-```markdown
 ### 1. 프로젝트 소개
 #### 1.1. 배경 및 필요성
-> 프로젝트를 실행하게 된 배경 및 필요성을 작성하세요.
+최근 산업 자동화와 스마트 기술의 발전으로 로봇의 활용이 급증하고 있습니다. 제조업, 물류, 의료 등 다양한 분야에서 로봇은 중요한 역할을 수행하고 있으며, 이러한 로봇의 효율적인 관리와 모니터링이 필수적입니다. 특히 여러 대의 로봇이 동시에 작업하는 환경에서는 각 로봇의 상태와 위치를 실시간으로 파악하고 관리하는 것이 매우 중요합니다.
 
 #### 1.2. 목표 및 주요 내용
-> 프로젝트의 목표 및 주요 내용을 작성하세요.
+본 프로젝트의 목표는 클라우드 기반의 실시간 로봇 모니터링 및 제어 시스템을 개발하는 것입니다.
+
+주요 기능:
+- Aruco Marker와 컴퓨터 비전 기술을 활용한 정확한 실시간 로봇 위치 추적
+- LiDAR 데이터를 활용한 3D 환경 모니터링 및 시각화
+- 클라우드 기반의 실시간 비디오 스트리밍 및 원격 모니터링
+- ESP32를 활용한 저비용, 고효율의 로봇 제어
+- 웹 기반 사용자 인터페이스를 통한 직관적인 로봇 제어 및 모니터링
 
 ### 2. 상세설계
 #### 2.1. 시스템 구성도
-> 시스템 구성도(infra, front, back등의 node 간의 관계)의 사진을 삽입하세요.
+[시스템 구성도 이미지 추가 필요]
 
-#### 2.1. 사용 기술
-> 스택 별(backend, frontend, designer등) 사용한 기술 및 버전을 작성하세요.
-> 
-> ex) React.Js - React14, Node.js - v20.0.2
+#### 2.2. 사용 기술
+**Hardware**
+- ESP32 마이크로컨트롤러
+- 웹캠 (Aruco Marker 인식용)
+- T-mini-pro LiDAR 센서
+- WAVE ROVER(4WD ROVER)
+
+**Backend**
+- Python (OpenCV, LiDAR 데이터 처리)
+- AWS EC2 (클라우드 서버)
+- WebSocket 서버
+
+**Frontend**
+- HTML5/CSS3/JavaScript
+- Unity/WebGL (3D 환경 시각화)
+
+**Robot Control**
+- Arduino IDE
+- C++ (ESP32)
+- ROS (Robot Operating System)
 
 ### 3. 설치 및 사용 방법
-> 제품을 설치하기 위헤 필요한 소프트웨어 및 설치 방법을 작성하세요.
->
-> 제품을 설치하고 난 후, 실행 할 수 있는 방법을 작성하세요.
+```bash
+1. 환경 설정
+# OpenCV 설치
+pip install opencv-python
+
+# Unity 설치
+[Unity Hub 다운로드 링크]
+<https://unity.com/kr/download>
+
+# ESP32 개발 환경 설정
+[Arduino IDE 설치 및 ESP32 보드 매니저 추가 방법]
+
+2. 실행 방법
+# 위치 추적 시스템 실행
+python tracking_system.py
+
+# 웹 서버 실행
+node server.js
+
+# LiDAR 데이터 정제
+  1) DataRefine.py의
+
+     file_path = r'파일_경로\LiDAR_데이터_파일.xlsx'
+
+     에서 LiDAR 데이터 파일 이름과 경로를 설정한다
+
+  2) DataRefine.py의
+
+     output_json_path = r'파일_경로\pillars_with_walls.json'
+
+     에서 JSON 파일의 저장될 경로를 설정한다
+
+  3) 코드를 실행하면 설정한 경로에 JSON 형식의 정제된 LiDAR 데이터가 저장된걸 확인한다
+
+  4) PillarWallSpawner.cs의
+
+     string filePath = "파일_경로\\pillars_with_walls.json";
+
+     에서 JSON 파일이 저장된 경로를 설정한다
+
+# Unity 프로젝트 빌드 및 실행
+  1) Unity Hub를 실행하고 New Project -> 3D (Built-In Render Pipeline)를 선택한다
+
+  2) Project가 만들어지면 unity 디렉토리 안에 있는 Assets 폴더를 만들어진 Project의 Assets 폴더로 덮어쓴다
+
+  3) Play 버튼을 누른뒤 빌드가 되는것을 확인하고 정지 버튼을 누른다
+
+  4) File -> Build Settings에 들어가서 Platform에서 WebGL을선택하고 Switch Platforms를 누른다
+
+  5) Build를 눌러 원하는 폴더를 선택한다
+
+  6) Build And Run을 눌러 WebGL 빌드를 실행한다
+```
 
 ### 4. 소개 및 시연 영상
-> 프로젝트에 대한 소개와 시연 영상을 넣으세요.
+
+주요 기능 데모:
+- 실시간 로봇 위치 추적
+- 3D 환경 시각화
+- 원격 제어 시스템
+- 통합 모니터링 대시보드
+
+[![2024년 전기 졸업과제 28 NEXUS](http://img.youtube.com/vi/JxSF9VgbEFM/0.jpg)](https://www.youtube.com/watch?v=JxSF9VgbEFM&list=PLFUP9jG-TDp-CVdTbHvql-WoADl4gNkKj&index=28)
 
 ### 5. 팀 소개
-> 팀원 소개 & 구성원 별 역할 분담 & 간단한 연락처를 작성하세요.
-```
 
-## 5. README.md 작성팁 
-* 마크다운 언어를 이용해 README.md 파일을 작성할 때 참고할 수 있는 마크다운 언어 문법을 공유합니다.  
-* 다양한 예제와 보다 자세한 문법은 [이 문서](https://www.markdownguide.org/basic-syntax/)를 참고하세요.
+이경원
 
-### 5.1. 헤더 Header
-```
-# This is a Header 1
-## This is a Header 2
-### This is a Header 3
-#### This is a Header 4
-##### This is a Header 5
-###### This is a Header 6
-####### This is a Header 7 은 지원되지 않습니다.
-```
-<br />
+- 역할: 컴퓨터 비전 기반 실시간 로봇 위치 추적 시스템 개발
+- 담당: Aruco Marker 위치 추적, 실시간 데이터 처리
 
-### 5.2. 인용문 BlockQuote
-```
-> This is a first blockqute.
->	> This is a second blockqute.
->	>	> This is a third blockqute.
-```
-> This is a first blockqute.
->	> This is a second blockqute.
->	>	> This is a third blockqute.
-<br />
+김범모
 
-### 5.3. 목록 List
-* **Ordered List**
-```
-1. first
-2. second
-3. third  
-```
-1. first
-2. second
-3. third
-<br />
+- 역할: LiDAR 기반 3D 환경 시각화 시스템 개발
+- 담당: Unity 3D 환경 구현, LiDAR 데이터 처리
 
-* **Unordered List**
-```
-* 하나
-  * 둘
+최정혜
 
-+ 하나
-  + 둘
-
-- 하나
-  - 둘
-```
-* 하나
-  * 둘
-
-+ 하나
-  + 둘
-
-- 하나
-  - 둘
-<br />
-
-### 5.4. 코드 CodeBlock
-* 코드 블럭 이용 '``'
-```
-여러줄 주석 "```" 이용
-"```
-#include <stdio.h>
-int main(void){
-  printf("Hello world!");
-  return 0;
-}
-```"
-
-단어 주석 "`" 이용
-"`Hello world`"
-
-* 큰 따움표(") 없이 사용하세요.
-``` 
-<br />
-
-### 5.5. 링크 Link
-```
-[Title](link)
-[부산대학교 정보컴퓨터공학부](https://cse.pusan.ac.kr/cse/index..do)
-
-<link>
-<https://cse.pusan.ac.kr/cse/index..do>
-``` 
-[부산대학교 정보컴퓨터공학부](https://cse.pusan.ac.kr/cse/index..do)
-
-<https://cse.pusan.ac.kr/cse/index..do>
-<br />
-
-### 5.6. 강조 Highlighting
-```
-*single asterisks*
-_single underscores_
-**double asterisks**
-__double underscores__
-~~cancelline~~
-```
-*single asterisks* <br />
-_single underscores_ <br />
-**double asterisks** <br />
-__double underscores__ <br />
-~~cancelline~~  <br />
-<br />
-
-### 5.7. 이미지 Image
-```
-<img src="image URL" width="600px" title="Title" alt="Alt text"></img>
-![Alt text](image URL "Optional title")
-```
-- 웹에서 작성한다면 README.md 내용 안으로 이미지를 드래그 앤 드롭하면 이미지가 생성됩니다.
-- 웹이 아닌 로컬에서 작성한다면, github issue에 이미지를 드래그 앤 드롭하여 image url 을 얻을 수 있습니다. (URL만 복사하고 issue는 제출 안 함.)
-  <img src="https://github.com/user-attachments/assets/0fe3bff1-7a2b-4df3-b230-cac4ef5f6d0b" alt="이슈에 image 올림" width="600" />
-  <img src="https://github.com/user-attachments/assets/251c6d42-b36b-4ad4-9cfa-fa2cc67a9a50" alt="image url 복사" width="600" />
-
-
-### 5.8. 유튜브 영상 추가
-```markdown
-[![영상 이름](유튜브 영상 썸네일 URL)](유튜브 영상 URL)
-[![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://www.youtube.com/watch?v=zh_gQ_lmLqE)    
-```
-[![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://www.youtube.com/watch?v=zh_gQ_lmLqE)    
-
-- 이때 유튜브 영상 썸네일 URL은 유투브 영상 URL로부터 다음과 같이 얻을 수 있습니다.
-
-- `Youtube URL`: https://www.youtube.com/watch?v={동영상 ID}
-- `Youtube Thumbnail URL`: http://img.youtube.com/vi/{동영상 ID}/0.jpg 
-- 예를 들어, https://www.youtube.com/watch?v=zh_gQ_lmLqE 라고 하면 썸네일의 주소는 http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg 이다.
-
+- 역할: 클라우드 시스템 개발 및 통합, ESP32 기반 로봇 제어
+- 담당: 웹 인터페이스 개발, 클라우드 인프라 구축, 로봇 제어 시스템 구현
